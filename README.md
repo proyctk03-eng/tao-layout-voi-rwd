@@ -1,10 +1,13 @@
 # [Bài tập] Tạo Layout Với RWD (Responsive Web Design)
 
-## 📌 Giới Thiệu & Mục Tiêu
+- **Sinh viên thực hiện**: Nguyễn Tuấn Đạt
+- **Bài tập**: Tạo layout với RWD (Responsive Web Design) bằng DIV và CSS
+
+## 1. Giới Thiệu & Mục Tiêu
 
 Bài tập hướng dẫn kỹ thuật thiết kế giao diện thích ứng (**Responsive Web Design - RWD**) sử dụng thẻ `<div>`, hệ thống lưới tỷ lệ phần trăm (**Fluid Grid System**) và truy vấn đa phương tiện (**CSS Media Queries**). Trang web có khả năng tự động biến đổi linh hoạt từ bố cục 3 cột trên máy tính sang 2 cột trên máy tính bảng và 1 cột xếp chồng trên điện thoại di động.
 
-### 🎯 Mục tiêu bài học:
+### Mục tiêu bài học:
 - **Thấu hiểu vai trò của Viewport Meta Tag**: Kiểm soát tỷ lệ hiển thị trên mọi kích thước màn hình thiết bị.
 - **Làm chủ thuộc tính `box-sizing: border-box`**: Đảm bảo lề đệm (`padding`) và đường viền (`border`) không làm biến dạng hoặc vỡ lưới layout.
 - **Xây dựng hệ thống lưới 12 cột linh hoạt**: Sử dụng các lớp CSS `.col-1` đến `.col-12` (Desktop) và `.col-s-1` đến `.col-s-12` (Tablet).
@@ -12,7 +15,7 @@ Bài tập hướng dẫn kỹ thuật thiết kế giao diện thích ứng (**
 
 ---
 
-## 🏗️ 4 Trụ Cột Cốt Lõi Của Responsive Web Design
+## 2. 4 Trụ Cột Cốt Lõi Của Responsive Web Design
 
 ### 1. Viewport Meta Tag
 ```html
@@ -44,7 +47,7 @@ Bài tập hướng dẫn kỹ thuật thiết kế giao diện thích ứng (**
 
 ---
 
-## 📂 Cấu Trúc Mã Nguồn
+## 3. Cấu Trúc Mã Nguồn
 
 ```text
 tao_layout_voi_rwd/
@@ -57,7 +60,7 @@ tao_layout_voi_rwd/
 
 ---
 
-## ✨ Điểm Nổi Bật Ở Bản Hiện Đại (`modern_rwd.html`)
+## 4. Điểm Nổi Bật Ở Bản Hiện Đại (`modern_rwd.html`)
 
 Nhằm nâng cấp trải nghiệm trực quan theo tiêu chuẩn cao cấp:
 1. **Bộ giả lập kích thước màn hình trực tiếp (Interactive Viewport Simulator)**:
@@ -68,7 +71,7 @@ Nhằm nâng cấp trải nghiệm trực quan theo tiêu chuẩn cao cấp:
 
 ---
 
-## 🚀 Hướng Dẫn Trải Nghiệm & Kiểm Thử
+## 5. Hướng Dẫn Trải Nghiệm & Kiểm Thử
 
 1. **Bản chuẩn CodeGym**: Mở tệp [**`index.html`**](file:///C:/Users/dathao/Downloads/tao_layout_voi_rwd/index.html) và thử co giãn cửa sổ trình duyệt hoặc bấm `F12` -> `Ctrl + Shift + M` để xem các chế độ di động.
 2. **Bản nâng cấp trực quan**: Mở tệp [**`modern_rwd.html`**](file:///C:/Users/dathao/Downloads/tao_layout_voi_rwd/modern_rwd.html) và click thử các nút tab Desktop, Tablet, Mobile trên thanh công cụ.
